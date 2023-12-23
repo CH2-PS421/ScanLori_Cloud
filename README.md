@@ -1,6 +1,6 @@
 # Project: ScanLori API Doc
 
-## Live Demo
+## Live Demo -dev
 ```sh
 https://api-scanlori.techside.my.id/
 ```
