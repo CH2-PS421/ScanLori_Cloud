@@ -35,7 +35,7 @@ exports.create = (req, res) => {
 };
 
 exports.findAll = (req, res) => {
-    const nama_makanan = req.query.nama_makanan;
+    const nama_makanan = req.query.f;
     var condition = nama_makanan ? { nama_makanan: { [Op.like]: `%${nama_makanan}%` } } : null;
 
     Food.findAll({ where: condition })
